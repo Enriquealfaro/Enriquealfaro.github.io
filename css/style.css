@@ -104,7 +104,6 @@ ul#underline li a {
     font-size: 51px;
     font-weight: bold;
     color: #3D3D3D;
-    padding-top: 45px;
     padding-bottom: 55px;
 }
 
@@ -135,11 +134,17 @@ ul#underline li a {
 #education #cards p {
     padding-bottom: 7px;
     padding-top: 0px;
+    margin-bottom: 10px;
 }
 
 #education #cards h4 {
-    margin-top: 10px;
+    margin-top: 8px;
     margin-bottom: 5px;
+}
+
+#education #division-education-plataforma .division {
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .card-universidad {
@@ -177,4 +182,25 @@ ul#underline li a {
     background-color: #4592AF;
     color: white;
     padding: 5px;
+}
+
+#education {
+    border-bottom: 7px solid #4592AF;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+/* Final de los estilos de educacion */
+
+#habilidades {
+    background-color: #E6E6E6;
+    height: auto;
+    border-bottom: 7px solid #4592AF;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#habilidades .bloque-decoration {
+    background-color: #E6E6E6;
 }
